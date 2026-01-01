@@ -1,0 +1,13 @@
+# Ignore typst binary and archives
+typst/
+typst.zip
+
+# Ignore build output
+*.pdf
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# VS Code
+.vscode/

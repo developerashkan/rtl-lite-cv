@@ -1,0 +1,20 @@
+name: Compile CV
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Typst
+        uses: chataigne/setup-typst@v1
+
+      - name: Compile PDF
+        run: typst compile cv.typ --font-path ./fonts
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: my-cv
+          path: cv.pdf
