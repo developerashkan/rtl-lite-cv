@@ -16,7 +16,7 @@ A modern, lightweight CV template for Persian (RTL) languages using Typst.
 3. From PowerShell in this project folder run:
 
 ```powershell
-cd /d d:\cv\rtl-lite-cv
+cd "path/to/your/rtl-lite-cv"
 # If typst.exe is in ./typst/
 .\typst\typst.exe compile cv.typ
 # Or, if `typst` is in your PATH:
