@@ -6,6 +6,10 @@ This project is a simpler, faster alternative to LaTeX-based solutions like `ren
 
 ---
 
+01001000 01100001 01110000 01110000 01111001 00100000 01001110 01100101 01110111 00100000 01011001 01100101 01100001 01110010
+
+---
+
 ## ✨ Features
 - **Native RTL:** No `bidi` hacks; perfect Persian/Arabic support out of the box.
 - **Feather-Light:** No 5GB LaTeX installation. Just a 20MB executable.
