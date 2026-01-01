@@ -1,12 +1,12 @@
+01001000 01100001 01110000 01110000 01111001 00100000 01001110 01100101 01110111 00100000 01011001 01100101 01100001 01110010
+
+---
+
 # 📄 RTL Lite CV (Typst Edition)
 
 A modern, lightweight, and blazing-fast CV template designed specifically for **Persian (Farsi)** and other Right-to-Left (RTL) languages. 
 
 This project is a simpler, faster alternative to LaTeX-based solutions like `rendercv`. Powered by [Typst](https://typst.app), it compiles in milliseconds and handles RTL natively without complex packages.
-
----
-
-01001000 01100001 01110000 01110000 01111001 00100000 01001110 01100101 01110111 00100000 01011001 01100101 01100001 01110010
 
 ---
 
